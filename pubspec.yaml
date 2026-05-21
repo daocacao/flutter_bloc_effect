@@ -1,0 +1,31 @@
+name: mvi_lib
+description: "Out-of-widget-tree MVI stores for Flutter and Dart: typed intents, immutable state, bubbling effects, scoped access, and diagnostics without UI-coupled business logic."
+version: 0.1.0
+repository: https://github.com/daocacao/mvi_lib
+issue_tracker: https://github.com/daocacao/mvi_lib/issues
+documentation: https://github.com/daocacao/mvi_lib#readme
+
+# Replace with your publisher before publishing:
+# publisher: your-domain.com
+
+environment:
+  sdk: ^3.4.0
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  meta: ^1.15.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^4.0.0
+
+topics:
+  - mvi
+  - state-management
+  - flutter
+  - architecture
+  - unidirectional-data-flow
+
